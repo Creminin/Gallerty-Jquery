@@ -70,3 +70,48 @@ h2{
   background-color: rgb(210, 81, 81);
   color: #fff;
 }
+
+ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul li{
+  width: 300px;
+  height: 200px;
+  list-style: none;
+  position: relative;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+.Link-Total-Size-Img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #0f172ab0;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #38bdf8;
+  opacity: 0;
+  transition: 300ms ease-in;
+}
+
+.Link-Total-Size-Img:hover{
+  background-color: #0f172a;
+}
+
+a{
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+ul li:hover .Link-Total-Size-Img{
+  opacity: 1;
+}
