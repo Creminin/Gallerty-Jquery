@@ -1,3 +1,13 @@
 $(document).ready(function () {
-  alert('funcionou')
+  $('#NewImg').click(() => {
+    $('form').slideDown();
+  })
+
+  $('#Cancel').click(() => {
+    $('form').slideUp();
+  });
+
+  $('form').on('submit', (e) => {
+    e.preventDefault();
+  })
 })
