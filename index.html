@@ -13,14 +13,20 @@
 <body>
   <header>
     <h1>Galeria de imagens</h2>
-    <button type="button">Nova imagem +</button>
+    <button type="button" id="NewImg">Nova imagem +</button>
   </header>
 
   <form>
     <h2>Inserir nova imagem</h2>
-    <input type="url" required placeholder="Link da imagem">
-    <button type="submit">Adicionar</button>
-    <button type="reset">Cancelar</button>
+
+    <div class="Div-Form">
+      <input type="url" required placeholder="Link da imagem" id="LinkImg">
+      <button type="submit" id="Add">Adicionar</button>
+      <button type="reset" id="Cancel">Cancelar</button>
+    </div>
+    
   </form>
 </body>
+ <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+ <script src="main.js"></script>
 </html>

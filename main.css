@@ -20,9 +20,21 @@ header{
   background-color: #0f172a;
 }
 
+button{
+  padding: 10px;
+  cursor: pointer;
+  background-color: #212e4a;
+  border: none;
+  color: #38bdf8;
+  border-radius: 5px;
+}
+
 header button{
   margin-left: 16px;
-  color: #38bdf8;
+}
+
+#NewImg:focus{
+  border: 1px solid #38bdf8;
 }
 
 form{
@@ -30,4 +42,30 @@ form{
   padding: 16px 0;
   background-color: #13203d;
   border-bottom: 2px solid rgb(46, 132, 202);
+}
+
+h2{
+  color: #fff;
+}
+
+.Div-Form{
+  margin-top: 15px;
+}
+
+#LinkImg{
+  padding: 8px;
+  border: 1px solid #38bdf8;
+  background-color: #0f172a;
+  outline: none;
+  color: #fff;
+}
+
+#Add:focus{
+  background-color: rgb(102, 225, 102);
+  color: #fff;
+}
+
+#Cancel:focus{
+  background-color: rgb(210, 81, 81);
+  color: #fff;
 }
